@@ -1,0 +1,37 @@
+<!--Lea el material mencionado y responda las siguientes consignas:  
+
+1. Cree tres variables con datos personales al azar y cuando cargue la página web, muestre un mensaje de bienvenida para el usuario.  
+2. Modifique el ejercicio anterior para que el usuario sea quien ingrese sus datos.  
+3. Modifique el ejercicio anterior para mostrar un mensaje (luego del mensaje del ejercicio 1), que le diga al usuario cuántos días ha vivido desde que nació.-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Averiguar cuántos días has vivido desde que naciste</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="registroUsuario" onsubmit="registrarUsuario(); return false;">
+        <input type="text" id="usuarioId" placeholder="ID de usuario" required>
+        <input type="password" id="contrasena" placeholder="Contraseña" required>
+        <input type="date" id="fechaNacimiento" placeholder="Fecha de nacimiento" required>
+        <button type="submit">Registrar</button>
+    </form>
+
+    <h1 id="mensajeRegistro"></h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
